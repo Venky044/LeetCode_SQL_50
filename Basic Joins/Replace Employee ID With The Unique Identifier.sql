@@ -63,8 +63,7 @@
 -- The unique ID of Jonathan is 1.
 
 -- Solution:
-select if(eu.unique_id, eu.unique_id, null) as unique_id,
-       e.name
+select eu.unique_id, e.name
 from Employees e
     left join
     EmployeeUNI eu on e.id = eu.id;

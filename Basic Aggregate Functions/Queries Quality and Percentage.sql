@@ -1,6 +1,7 @@
---       Queries Quality and Percentage
+      -- Queries Quality and Percentage
 
 -- Table: Queries
+
 -- +-------------+---------+
 -- | Column Name | Type    |
 -- +-------------+---------+

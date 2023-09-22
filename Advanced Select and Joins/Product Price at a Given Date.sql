@@ -59,4 +59,5 @@ select
     product_id, 
     if(change_date, 10, 10) as price
 from Products
-where (product_id, change_date) not in (select * from sample);
+where product_id not in (select product_id from sample);
+-- (or) where (product_id, change_date) not in (select * from sample)
